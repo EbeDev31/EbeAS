@@ -2,7 +2,9 @@
 This directory showcase my skills as a React Native developer
 
 ###GETTING STARTED######
+
 download zip
+
 npm install (At the root of your project)
 
 react-native run-android
