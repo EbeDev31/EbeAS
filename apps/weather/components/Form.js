@@ -49,11 +49,11 @@ export default class Forms extends Component{
                         <View style={styles.searchArea}>
                         
                                             <View style={styles.inputs}>
-                                                <TextInput name="city" placeholder="City..." 
+                                                <TextInput name="city" placeholderTextColor="white" placeholder="City..." 
                                                     onChangeText={this.props.handleCity} 
                                                     style={styles.TextInput}>
                                                 </TextInput>
-                                                <TextInput name="country" placeholder="Country..." 
+                                                <TextInput name="country" placeholderTextColor="white" placeholder="Country..." 
                                                 onChangeText={this.props.handleCountry}
                                                   style={styles.TextInput}>
                                                 </TextInput>
