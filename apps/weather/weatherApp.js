@@ -100,6 +100,13 @@ class App extends React.Component {
   render() {
     return (
       <View style={styles.main}>
+         <Text 
+             style={{
+                color:"white",
+                fontSize:30,
+                    }} >
+              Weather App
+            </Text>
             <View style={styles.searchArea} >
               <Form 
                 handleCity={this.handleCity}
